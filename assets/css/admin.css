@@ -1,0 +1,42 @@
+/* /assets/css/admin.css */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+*{box-sizing:border-box}
+:root{ --bg:#0f172a; --card:#111827ee; --muted:#94a3b8; --text:#e5e7eb; --accent:#22c55e; --accent2:#38bdf8; --field:#0b1224; --border:rgba(148,163,184,.25); }
+
+body{
+  font-family:Inter,system-ui,Segoe UI,Roboto,Arial,sans-serif;margin:0;color:var(--text);
+  background:radial-gradient(1200px 600px at 100% 0,#0b1025 0%,#0f172a 55%,#0b1025 100%);
+}
+
+.wrap{
+  max-width:1100px;margin:48px auto;padding:24px;
+  background:linear-gradient(180deg,rgba(255,255,255,.03),rgba(255,255,255,.02));
+  backdrop-filter:blur(6px);border:1px solid rgba(255,255,255,.08);border-radius:16px;
+  box-shadow:0 10px 30px rgba(0,0,0,0.25);animation:fadeIn .5s ease both
+}
+
+h2{margin:0 0 16px 0}
+
+form{margin-bottom:20px;display:flex;gap:10px;flex-wrap:wrap}
+input[type="date"],select,button{
+  appearance:none;border:none;border-radius:10px;padding:10px 12px;font-size:14px;
+  background:#0b1224;color:var(--text);border:1px solid var(--border);transition:.2s ease
+}
+input[type="date"]:focus,select:focus,button:focus{outline:none;border-color:var(--accent2);box-shadow:0 0 0 3px rgba(56,189,248,.25)}
+button{cursor:pointer;font-weight:600}
+.btn-primary{background:linear-gradient(90deg,var(--accent),#16a34a)}
+.btn-ghost{background:transparent;border:1px dashed rgba(148,163,184,.35)}
+
+table{border-collapse:separate;border-spacing:0;width:100%}
+th,td{padding:12px 14px;text-align:center;border-bottom:1px solid rgba(255,255,255,0.06)}
+thead th{position:sticky;top:0;background:rgba(15,23,42,.85);backdrop-filter:blur(4px)}
+tbody tr{transition:transform .08s ease, background .2s ease}
+tbody tr:hover{transform:translateY(-1px);background:rgba(148,163,184,.06)}
+
+.badge{display:inline-block;padding:4px 8px;border-radius:999px;font-size:12px;background:rgba(34,197,94,.15);border:1px solid rgba(34,197,94,.35)}
+.muted{color:var(--muted)}
+.th-sortable{user-select:none}
+.th-sortable:hover{color:#fff}
+
+@keyframes fadeIn{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}

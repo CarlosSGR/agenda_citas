@@ -1,0 +1,27 @@
+/* theme.css */
+:root {
+  --bg:#0f172a; --card:#111827ee; --muted:#94a3b8; --text:#e5e7eb;
+  --accent:#22c55e; --accent2:#38bdf8; --field:#0b1224; --border:rgba(148,163,184,.25);
+}
+
+/* Tema claro */
+:root[data-theme="light"] {
+  --bg:#f7fafc; --card:#ffffff; --muted:#6b7280; --text:#111827;
+  --accent:#16a34a; --accent2:#0284c7; --field:#ffffff; --border:#d1d5db;
+}
+
+/* Reset body base */
+html,body{height:100%}
+body{background:var(--bg); color:var(--text); transition:background .25s,color .25s}
+
+/* Header con logo + toggle */
+.appbar{
+  display:flex; align-items:center; justify-content:space-between;
+  gap:12px; padding:14px 18px; max-width:980px; margin:14px auto 0;
+}
+.brand{display:flex; align-items:center; gap:10px; font-weight:700; letter-spacing:.2px}
+.brand img{width:22px; height:22px}
+.theme-toggle{
+  border:1px solid var(--border); background:var(--field); color:var(--text);
+  padding:8px 10px; border-radius:10px; cursor:pointer;
+}
