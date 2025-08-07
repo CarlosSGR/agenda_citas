@@ -1,10 +1,17 @@
-<!-- admin.php - Panel para ver citas agendadas -->
+<!-- admin.php - Panel para ver citas agendadas con filtros -->
 <?php
 include 'db.php';
+$busqueda = isset($_GET['fecha']) ? $_GET['fecha'] : '';
+$order = isset($_GET['orden']) ? $_GET['orden'] : 'ASC';
 $sql = "SELECT c.id, cl.nombre, cl.telefono, c.servicio, c.fecha, c.hora, c.creado_en
         FROM citas c
-        JOIN clientes cl ON c.cliente_id = cl.id
-        ORDER BY c.fecha, c.hora";
+        JOIN clientes cl ON c.cliente_id = cl.id";
+
+if (!empty($busqueda)) {
+    $sql .= " WHERE c.fecha = '" . $conn->real_escape_string($busqueda) . "'";
+}
+
+$sql .= " ORDER BY c.fecha $order, c.hora $order";
 $result = $conn->query($sql);
 ?>
 
@@ -17,11 +24,27 @@ $result = $conn->query($sql);
         body { font-family: Arial; margin: 40px; }
         table { border-collapse: collapse; width: 100%; }
         th, td { border: 1px solid #ddd; padding: 8px; text-align: center; }
-        th { background-color: #f2f2f2; }
+        th { background-color: #f2f2f2; cursor: pointer; }
+        form { margin-bottom: 20px; display: flex; gap: 10px; }
+        input[type="date"] { padding: 5px; font-size: 16px; }
+        button { padding: 6px 12px; font-size: 16px; }
     </style>
 </head>
 <body>
     <h2>Citas agendadas</h2>
+
+    <form method="GET" action="">
+        <input type="date" name="fecha" value="<?= htmlspecialchars($busqueda) ?>">
+        <select name="orden">
+            <option value="ASC" <?= $order == 'ASC' ? 'selected' : '' ?>>Ascendente</option>
+            <option value="DESC" <?= $order == 'DESC' ? 'selected' : '' ?>>Descendente</option>
+        </select>
+        <button type="submit">Filtrar</button>
+        <button type="button" onclick="window.location.href='admin.php'">Quitar filtros</button>
+    </form>
+
+
+
     <table>
         <thead>
             <tr>

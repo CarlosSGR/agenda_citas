@@ -9,6 +9,27 @@
         form { max-width: 400px; margin: auto; display: flex; flex-direction: column; gap: 10px; }
         input, select, button { padding: 10px; font-size: 16px; }
     </style>
+    <script>
+    async function cargarHorasDisponibles() {
+        
+        const fecha = document.querySelector('[name="fecha"]').value;
+        const horaSelect = document.querySelector('[name="hora"]');
+
+        if (!fecha) return;
+
+        const response = await fetch(`horas_disponibles.php?fecha=${fecha}`);
+        const horas = await response.json();
+
+        horaSelect.innerHTML = '<option value="">Selecciona una hora</option>';
+        horas.forEach(hora => {
+            const option = document.createElement('option');
+            option.value = hora;
+            option.textContent = hora;
+            horaSelect.appendChild(option);
+        });
+
+    }
+    </script>
 </head>
 <body>
     <h2>Agendar una cita</h2>
@@ -21,18 +42,9 @@
             <option value="Limpieza facial">Limpieza facial</option>
             <option value="Consulta general">Consulta general</option>
         </select>
-        <input type="date" name="fecha" required onkeydown="return false">
+        <input type="date" name="fecha" required onkeydown="return false" onchange="cargarHorasDisponibles()">
         <select name="hora" required>
             <option value="">Selecciona una hora</option>
-            <?php
-            $inicio = strtotime("09:00");
-            $fin = strtotime("18:00");
-            $intervalo = 30 * 60; // 30 minutos
-
-            for ($i = $inicio; $i <= $fin; $i += $intervalo) {
-                echo '<option value="' . date("H:i", $i) . '">' . date("H:i", $i) . '</option>';
-            }
-            ?>
         </select>
         <button type="submit">Agendar</button>
     </form>
