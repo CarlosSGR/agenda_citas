@@ -1,6 +1,7 @@
 <!-- admin.php - Panel para ver citas agendadas con filtros -->
 <?php
-include 'db.php';
+require_once 'auth.php';
+require_once 'db.php';
 $busqueda = isset($_GET['fecha']) ? $_GET['fecha'] : '';
 $order = isset($_GET['orden']) ? $_GET['orden'] : 'ASC';
 $sql = "SELECT c.id, cl.nombre, cl.telefono, c.servicio, c.fecha, c.hora, c.creado_en
@@ -35,6 +36,10 @@ $result = $conn->query($sql);
 </head>
 
 <body>
+    <!-- en el header del admin -->
+    <span class="muted">Hola, <?= htmlspecialchars($_SESSION['admin_name'] ?? 'Admin') ?></span>
+    <a class="btn-ghost" href="logout.php">Salir</a>
+
     <div class="appbar">
         <div class="brand">
             <img src="assets/img/logo.svg" alt="logo">
