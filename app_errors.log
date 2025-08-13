@@ -1,0 +1,117 @@
+[12-Aug-2025 11:50:05 America/Mexico_City] PHP Warning:  mysqli::__construct(): (HY000/1049): Unknown database 'agenda_citas' in C:\xampp\htdocs\agenda_citas\db.php on line 22
+[12-Aug-2025 11:50:05 America/Mexico_City] [DB] Conexión fallida: Unknown database 'agenda_citas'
+[12-Aug-2025 11:50:11 America/Mexico_City] PHP Warning:  mysqli::__construct(): (HY000/1049): Unknown database 'agenda_citas' in C:\xampp\htdocs\agenda_citas\db.php on line 22
+[12-Aug-2025 11:50:11 America/Mexico_City] [DB] Conexión fallida: Unknown database 'agenda_citas'
+[12-Aug-2025 11:50:34 America/Mexico_City] PHP Warning:  mysqli::__construct(): (HY000/1049): Unknown database 'agenda_citas' in C:\xampp\htdocs\agenda_citas\db.php on line 22
+[12-Aug-2025 11:50:34 America/Mexico_City] [DB] Conexión fallida: Unknown database 'agenda_citas'
+[12-Aug-2025 11:52:59 America/Mexico_City] [BOOT] DB conectada, tz=America/Mexico_City, charset=utf8mb4
+[12-Aug-2025 11:53:04 America/Mexico_City] [BOOT] DB conectada, tz=America/Mexico_City, charset=utf8mb4
+[12-Aug-2025 11:53:40 America/Mexico_City] [BOOT] DB conectada, tz=America/Mexico_City, charset=utf8mb4
+[12-Aug-2025 11:53:40 America/Mexico_City] [BOOT] DB conectada, tz=America/Mexico_City, charset=utf8mb4
+[12-Aug-2025 11:53:40 America/Mexico_City] PHP Warning:  Undefined variable $cita in C:\xampp\htdocs\agenda_citas\admin.php on line 178
+[12-Aug-2025 11:53:40 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\agenda_citas\admin.php on line 178
+[12-Aug-2025 11:53:40 America/Mexico_City] PHP Warning:  Undefined variable $cita in C:\xampp\htdocs\agenda_citas\admin.php on line 178
+[12-Aug-2025 11:53:40 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\agenda_citas\admin.php on line 178
+[12-Aug-2025 11:53:40 America/Mexico_City] PHP Warning:  Undefined variable $cita in C:\xampp\htdocs\agenda_citas\admin.php on line 178
+[12-Aug-2025 11:53:40 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\agenda_citas\admin.php on line 178
+[12-Aug-2025 11:53:40 America/Mexico_City] PHP Warning:  Undefined variable $cita in C:\xampp\htdocs\agenda_citas\admin.php on line 178
+[12-Aug-2025 11:53:40 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\agenda_citas\admin.php on line 178
+[12-Aug-2025 11:53:40 America/Mexico_City] PHP Warning:  Undefined variable $cita in C:\xampp\htdocs\agenda_citas\admin.php on line 178
+[12-Aug-2025 11:53:40 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\agenda_citas\admin.php on line 178
+[12-Aug-2025 11:53:40 America/Mexico_City] PHP Warning:  Undefined variable $cita in C:\xampp\htdocs\agenda_citas\admin.php on line 178
+[12-Aug-2025 11:53:40 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\agenda_citas\admin.php on line 178
+[12-Aug-2025 11:53:40 America/Mexico_City] PHP Warning:  Undefined variable $cita in C:\xampp\htdocs\agenda_citas\admin.php on line 178
+[12-Aug-2025 11:53:40 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\agenda_citas\admin.php on line 178
+[12-Aug-2025 11:53:40 America/Mexico_City] PHP Warning:  Undefined variable $cita in C:\xampp\htdocs\agenda_citas\admin.php on line 178
+[12-Aug-2025 11:53:40 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\agenda_citas\admin.php on line 178
+[12-Aug-2025 11:53:40 America/Mexico_City] PHP Warning:  Undefined variable $cita in C:\xampp\htdocs\agenda_citas\admin.php on line 178
+[12-Aug-2025 11:53:40 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\agenda_citas\admin.php on line 178
+[12-Aug-2025 11:53:47 America/Mexico_City] [BOOT] DB conectada, tz=America/Mexico_City, charset=utf8mb4
+[12-Aug-2025 11:53:47 America/Mexico_City] PHP Warning:  Undefined variable $cita in C:\xampp\htdocs\agenda_citas\admin.php on line 178
+[12-Aug-2025 11:53:47 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\agenda_citas\admin.php on line 178
+[12-Aug-2025 11:53:47 America/Mexico_City] PHP Warning:  Undefined variable $cita in C:\xampp\htdocs\agenda_citas\admin.php on line 178
+[12-Aug-2025 11:53:47 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\agenda_citas\admin.php on line 178
+[12-Aug-2025 11:53:47 America/Mexico_City] PHP Warning:  Undefined variable $cita in C:\xampp\htdocs\agenda_citas\admin.php on line 178
+[12-Aug-2025 11:53:47 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\agenda_citas\admin.php on line 178
+[12-Aug-2025 11:53:47 America/Mexico_City] PHP Warning:  Undefined variable $cita in C:\xampp\htdocs\agenda_citas\admin.php on line 178
+[12-Aug-2025 11:53:47 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\agenda_citas\admin.php on line 178
+[12-Aug-2025 11:53:47 America/Mexico_City] PHP Warning:  Undefined variable $cita in C:\xampp\htdocs\agenda_citas\admin.php on line 178
+[12-Aug-2025 11:53:47 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\agenda_citas\admin.php on line 178
+[12-Aug-2025 11:53:47 America/Mexico_City] PHP Warning:  Undefined variable $cita in C:\xampp\htdocs\agenda_citas\admin.php on line 178
+[12-Aug-2025 11:53:47 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\agenda_citas\admin.php on line 178
+[12-Aug-2025 11:53:47 America/Mexico_City] PHP Warning:  Undefined variable $cita in C:\xampp\htdocs\agenda_citas\admin.php on line 178
+[12-Aug-2025 11:53:47 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\agenda_citas\admin.php on line 178
+[12-Aug-2025 11:53:47 America/Mexico_City] PHP Warning:  Undefined variable $cita in C:\xampp\htdocs\agenda_citas\admin.php on line 178
+[12-Aug-2025 11:53:47 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\agenda_citas\admin.php on line 178
+[12-Aug-2025 11:53:47 America/Mexico_City] PHP Warning:  Undefined variable $cita in C:\xampp\htdocs\agenda_citas\admin.php on line 178
+[12-Aug-2025 11:53:47 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\agenda_citas\admin.php on line 178
+[12-Aug-2025 11:57:32 America/Mexico_City] [BOOT] DB conectada, tz=America/Mexico_City, charset=utf8mb4
+[12-Aug-2025 12:06:49 America/Mexico_City] [BOOT] DB conectada, tz=America/Mexico_City, charset=utf8mb4
+[12-Aug-2025 12:06:49 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to a member function execute() on bool in C:\xampp\htdocs\agenda_citas\admin.php:62
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\agenda_citas\admin.php on line 62
+[12-Aug-2025 12:06:53 America/Mexico_City] [BOOT] DB conectada, tz=America/Mexico_City, charset=utf8mb4
+[12-Aug-2025 12:06:53 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to a member function execute() on bool in C:\xampp\htdocs\agenda_citas\admin.php:62
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\agenda_citas\admin.php on line 62
+[12-Aug-2025 12:07:23 America/Mexico_City] [BOOT] DB conectada, tz=America/Mexico_City, charset=utf8mb4
+[12-Aug-2025 12:07:23 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to a member function execute() on bool in C:\xampp\htdocs\agenda_citas\admin.php:62
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\agenda_citas\admin.php on line 62
+[12-Aug-2025 12:19:25 America/Mexico_City] [BOOT] DB conectada, tz=America/Mexico_City, charset=utf8mb4
+[12-Aug-2025 12:19:25 America/Mexico_City] [admin] prepare failed: Unknown column 'cl.email' in 'field list'
+[12-Aug-2025 12:23:24 America/Mexico_City] [BOOT] DB conectada, tz=America/Mexico_City, charset=utf8mb4
+[12-Aug-2025 12:23:24 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to a member function execute() on bool in C:\xampp\htdocs\agenda_citas\admin.php:62
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\agenda_citas\admin.php on line 62
+[12-Aug-2025 12:23:26 America/Mexico_City] [BOOT] DB conectada, tz=America/Mexico_City, charset=utf8mb4
+[12-Aug-2025 12:23:26 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to a member function execute() on bool in C:\xampp\htdocs\agenda_citas\admin.php:62
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\agenda_citas\admin.php on line 62
+[12-Aug-2025 12:23:37 America/Mexico_City] [BOOT] DB conectada, tz=America/Mexico_City, charset=utf8mb4
+[12-Aug-2025 12:23:37 America/Mexico_City] [admin] prepare failed: Unknown column 'c.creado_ts' in 'field list'
+[12-Aug-2025 12:27:35 America/Mexico_City] [BOOT] DB conectada, tz=America/Mexico_City, charset=utf8mb4
+[12-Aug-2025 12:31:47 America/Mexico_City] [BOOT] DB conectada, tz=America/Mexico_City, charset=utf8mb4
+[12-Aug-2025 12:31:47 America/Monterrey] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in C:\xampp\htdocs\agenda_citas\recordar_ahora.php:41
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\agenda_citas\recordar_ahora.php on line 41
+[12-Aug-2025 12:44:57 America/Mexico_City] [BOOT] DB conectada, tz=America/Mexico_City, charset=utf8mb4
+[12-Aug-2025 12:45:04 America/Mexico_City] [BOOT] DB conectada, tz=America/Mexico_City, charset=utf8mb4
+[12-Aug-2025 12:45:29 America/Mexico_City] [BOOT] DB conectada, tz=America/Mexico_City, charset=utf8mb4
+[12-Aug-2025 12:55:34 America/Mexico_City] [BOOT] DB conectada, tz=America/Mexico_City, charset=utf8mb4
+[12-Aug-2025 12:56:19 America/Mexico_City] [BOOT] DB conectada, tz=America/Mexico_City, charset=utf8mb4
+[12-Aug-2025 12:59:42 America/Mexico_City] [BOOT] DB conectada, tz=America/Mexico_City, charset=utf8mb4
+[13-Aug-2025 11:05:43 America/Mexico_City] [BOOT] DB conectada, tz=America/Mexico_City, charset=utf8mb4
+[13-Aug-2025 11:05:48 America/Mexico_City] [BOOT] DB conectada, tz=America/Mexico_City, charset=utf8mb4
+[13-Aug-2025 11:05:48 America/Mexico_City] [BOOT] DB conectada, tz=America/Mexico_City, charset=utf8mb4
+[13-Aug-2025 11:11:06 America/Mexico_City] [BOOT] DB conectada, tz=America/Mexico_City, charset=utf8mb4
+[13-Aug-2025 11:12:44 America/Mexico_City] [BOOT] DB conectada, tz=America/Mexico_City, charset=utf8mb4
+[13-Aug-2025 11:17:39 America/Mexico_City] [BOOT] DB conectada, tz=America/Mexico_City, charset=utf8mb4
+[13-Aug-2025 11:17:43 America/Mexico_City] [BOOT] DB conectada, tz=America/Mexico_City, charset=utf8mb4
+[13-Aug-2025 11:18:46 America/Mexico_City] [BOOT] DB conectada, tz=America/Mexico_City, charset=utf8mb4
+[13-Aug-2025 11:18:49 America/Mexico_City] [BOOT] DB conectada, tz=America/Mexico_City, charset=utf8mb4
+[13-Aug-2025 11:23:13 America/Mexico_City] [BOOT] DB conectada, tz=America/Mexico_City, charset=utf8mb4
+[13-Aug-2025 11:23:20 America/Mexico_City] [BOOT] DB conectada, tz=America/Mexico_City, charset=utf8mb4
+[13-Aug-2025 11:23:22 America/Mexico_City] [BOOT] DB conectada, tz=America/Mexico_City, charset=utf8mb4
+[13-Aug-2025 11:28:07 America/Mexico_City] [BOOT] DB conectada, tz=America/Mexico_City, charset=utf8mb4
+[13-Aug-2025 11:28:10 America/Mexico_City] [BOOT] DB conectada, tz=America/Mexico_City, charset=utf8mb4
+[13-Aug-2025 11:28:34 America/Mexico_City] [BOOT] DB conectada, tz=America/Mexico_City, charset=utf8mb4
+[13-Aug-2025 11:33:39 America/Mexico_City] [BOOT] DB conectada, tz=America/Mexico_City, charset=utf8mb4
+[13-Aug-2025 11:34:31 America/Mexico_City] [BOOT] DB conectada, tz=America/Mexico_City, charset=utf8mb4
+[13-Aug-2025 11:34:39 America/Mexico_City] [BOOT] DB conectada, tz=America/Mexico_City, charset=utf8mb4
+[13-Aug-2025 11:34:45 America/Mexico_City] [BOOT] DB conectada, tz=America/Mexico_City, charset=utf8mb4
+[13-Aug-2025 11:34:53 America/Mexico_City] [BOOT] DB conectada, tz=America/Mexico_City, charset=utf8mb4
+[13-Aug-2025 11:34:58 America/Mexico_City] [BOOT] DB conectada, tz=America/Mexico_City, charset=utf8mb4
+[13-Aug-2025 11:35:01 America/Mexico_City] [BOOT] DB conectada, tz=America/Mexico_City, charset=utf8mb4
+[13-Aug-2025 11:35:09 America/Mexico_City] [BOOT] DB conectada, tz=America/Mexico_City, charset=utf8mb4
+[13-Aug-2025 11:36:05 America/Mexico_City] [BOOT] DB conectada, tz=America/Mexico_City, charset=utf8mb4
+[13-Aug-2025 11:36:10 America/Mexico_City] [BOOT] DB conectada, tz=America/Mexico_City, charset=utf8mb4
+[13-Aug-2025 11:36:12 America/Mexico_City] [BOOT] DB conectada, tz=America/Mexico_City, charset=utf8mb4
+[13-Aug-2025 11:36:13 America/Mexico_City] [BOOT] DB conectada, tz=America/Mexico_City, charset=utf8mb4
+[13-Aug-2025 11:37:36 America/Mexico_City] [BOOT] DB conectada, tz=America/Mexico_City, charset=utf8mb4
