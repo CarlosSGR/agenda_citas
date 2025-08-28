@@ -17,15 +17,17 @@ It allows clients to easily book appointments and admins to manage availability.
 
 ## 📸 System Screenshots
 
-### 🏠 Home Page
-![Home Page](assets/img/home.png)
+### 🏠 Admin Page
+![Admin Page](assets/img/admin.png)
 
 ### 📋 Appointment Form
-![Appointment Form](assets/img/formulario.png)
+![Appointment Form](assets/img/form.png)
 
-### 📅 Appointments Panel
-![Appointments Panel](assets/img/panel.png)
+### 📅 Appointments Calendary
+![Appointments Calendary](assets/img/calendary.png)
 
+### Login
+![Login](assets/img/login.png)
 ---
 
 ## ⚙️ Installation
